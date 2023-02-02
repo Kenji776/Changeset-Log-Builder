@@ -1,0 +1,11 @@
+{
+	"skipExistingChangeSets" : true,
+	"rootFolder" : "packages",
+	"forcePackageVersion": 50,
+	"automaticallyFetchChangeSetNames": true,
+	"changesetJSONFile": "changeSetNames.json",
+	"createMergedPackage" : true,
+	"mergedPackageFolder": "__mergedPackage",
+	"username": "",
+	"outputFolder": "results"
+}
