@@ -13,10 +13,10 @@
 * paired with the merged package.xml file allows you to easily deploy all contents of all the change sets in one operation.
 */
 
-var packageStructure = '<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata"><version>48.0</version></Package>';
-let configFileName = 'config.json';
-var xml2js = require('xml2js');
-var parseString = xml2js.parseString;
+const packageStructure = '<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata"><version>48.0</version></Package>';
+const configFileName = 'config.json';
+const xml2js = require('xml2js');
+const parseString = xml2js.parseString;
 const fs = require('fs');
 const path = require('path')
 const { spawn } = require("child_process");
