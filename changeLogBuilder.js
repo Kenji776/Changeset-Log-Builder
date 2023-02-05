@@ -158,7 +158,7 @@ function writeChangeSetConfigFile(changesetNames) {
  * @Return
  */
 function loadConfig(configFileName) {
-    readJSONFromFile(configFileName);
+    return readJSONFromFile(configFileName);
 }
 
 /**
